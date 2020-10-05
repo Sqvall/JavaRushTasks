@@ -6,6 +6,7 @@ target/
 .idea
 .repository/
 
+
 /out/
 /JavaRushPlugin.properties
 /out.log
