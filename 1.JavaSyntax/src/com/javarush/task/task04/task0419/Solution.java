@@ -2,7 +2,6 @@ package com.javarush.task.task04.task0419;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.util.Arrays;
 
 /* 
 Максимум четырех чисел

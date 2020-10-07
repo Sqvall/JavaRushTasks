@@ -1,12 +1,11 @@
-package com.javarush.task.task04.task0420;
+package com.javarush.task.task04.task0428;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
-import java.util.Collections;
 
 /* 
-Сортировка трех чисел
+Положительное число
 */
 
 public class Solution {
@@ -18,9 +17,13 @@ public class Solution {
             inputNumbers.add(Integer.parseInt(reader.readLine()));
         }
 
-        inputNumbers.sort(Collections.reverseOrder());
+        int positiveCount = 0;
 
-        for (int i : inputNumbers)
-            System.out.print(i + " ");
+        for (int i : inputNumbers) {
+            if (i > 0) positiveCount++;
+        }
+
+        System.out.println(positiveCount);
+
     }
 }
